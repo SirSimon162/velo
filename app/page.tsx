@@ -1,65 +1,121 @@
-import Image from "next/image";
+"use client";
+
+import { useState } from "react";
+import { ExerciseBrowser } from "@/components/ExerciseBrowser";
+import { RoutineBuilder } from "@/components/RoutineBuilder";
+import { WorkoutHistory } from "@/components/WorkoutHistory";
+import { WorkoutRunner } from "@/components/WorkoutRunner";
+
+type Tab = "exercises" | "routines" | "train" | "history";
+
+const tabs: { id: Tab; label: string; shortLabel: string }[] = [
+  { id: "exercises", label: "Exercises", shortLabel: "Moves" },
+  { id: "routines", label: "Routines", shortLabel: "Plans" },
+  { id: "train", label: "Train", shortLabel: "Train" },
+  { id: "history", label: "History", shortLabel: "Log" },
+];
+
+function TabButton({
+  active,
+  label,
+  shortLabel,
+  onClick,
+  layout,
+}: {
+  active: boolean;
+  label: string;
+  shortLabel: string;
+  onClick: () => void;
+  layout: "top" | "bottom";
+}) {
+  const isBottom = layout === "bottom";
+
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      className={`transition-colors ${
+        isBottom
+          ? `flex min-h-14 flex-1 flex-col items-center justify-center gap-0.5 px-1 py-2 text-[11px] font-medium sm:text-xs ${
+              active
+                ? "text-emerald-400"
+                : "text-zinc-500 active:text-zinc-300"
+            }`
+          : `shrink-0 rounded-lg px-4 py-2.5 text-sm font-medium ${
+              active
+                ? "bg-zinc-100 text-zinc-900"
+                : "text-zinc-500 hover:bg-zinc-800 hover:text-zinc-300"
+            }`
+      }`}
+    >
+      {isBottom ? (
+        <>
+          <span className="sm:hidden">{shortLabel}</span>
+          <span className="hidden sm:inline">{label}</span>
+          {active && (
+            <span className="h-1 w-1 rounded-full bg-emerald-400" />
+          )}
+        </>
+      ) : (
+        label
+      )}
+    </button>
+  );
+}
 
 export default function Home() {
+  const [tab, setTab] = useState<Tab>("exercises");
+  const [historyKey, setHistoryKey] = useState(0);
+
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the page.tsx file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="min-h-dvh bg-zinc-950">
+      <header className="sticky top-0 z-20 border-b border-zinc-800/80 bg-zinc-950/90 pt-safe backdrop-blur-md">
+        <div className="mx-auto flex max-w-2xl items-center justify-between px-4 py-3 sm:px-6 sm:py-4">
+          <div className="min-w-0">
+            <h1 className="truncate text-lg font-bold tracking-tight text-zinc-50 sm:text-xl">
+              Velo
+            </h1>
+            <p className="truncate text-xs text-zinc-500">Gym workout tracker</p>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
+
+        <nav className="mx-auto hidden max-w-2xl gap-1 overflow-x-auto px-4 pb-3 sm:px-6 md:flex">
+          {tabs.map((t) => (
+            <TabButton
+              key={t.id}
+              active={tab === t.id}
+              label={t.label}
+              shortLabel={t.shortLabel}
+              onClick={() => setTab(t.id)}
+              layout="top"
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
-        </div>
+          ))}
+        </nav>
+      </header>
+
+      <main className="mx-auto max-w-2xl px-4 py-4 pb-24 sm:px-6 sm:py-6 md:pb-6">
+        {tab === "exercises" && <ExerciseBrowser />}
+        {tab === "routines" && <RoutineBuilder />}
+        {tab === "train" && (
+          <WorkoutRunner onComplete={() => setHistoryKey((k) => k + 1)} />
+        )}
+        {tab === "history" && <WorkoutHistory key={historyKey} />}
       </main>
+
+      <nav className="fixed inset-x-0 bottom-0 z-20 border-t border-zinc-800/80 bg-zinc-950/95 pb-safe backdrop-blur-md md:hidden">
+        <div className="mx-auto flex max-w-2xl px-safe">
+          {tabs.map((t) => (
+            <TabButton
+              key={t.id}
+              active={tab === t.id}
+              label={t.label}
+              shortLabel={t.shortLabel}
+              onClick={() => setTab(t.id)}
+              layout="bottom"
+            />
+          ))}
+        </div>
+      </nav>
     </div>
   );
 }

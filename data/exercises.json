@@ -1,0 +1,254 @@
+[
+  {
+    "id": "barbell-bench-press",
+    "name": "Barbell Bench Press",
+    "movement": "push",
+    "muscles": ["Chest", "Triceps", "Front Delts"]
+  },
+  {
+    "id": "overhead-press",
+    "name": "Overhead Press",
+    "movement": "push",
+    "muscles": ["Shoulders", "Triceps", "Upper Chest"]
+  },
+  {
+    "id": "incline-dumbbell-press",
+    "name": "Incline Dumbbell Press",
+    "movement": "push",
+    "muscles": ["Upper Chest", "Triceps", "Front Delts"]
+  },
+  {
+    "id": "incline-bench-press",
+    "name": "Incline Bench Press",
+    "movement": "push",
+    "muscles": ["Upper Chest", "Triceps", "Front Delts"]
+  },
+  {
+    "id": "incline-press",
+    "name": "Incline Press",
+    "movement": "push",
+    "muscles": ["Upper Chest", "Triceps"]
+  },
+  {
+    "id": "chest-press",
+    "name": "Chest Press",
+    "movement": "push",
+    "muscles": ["Chest", "Triceps", "Front Delts"]
+  },
+  {
+    "id": "dips",
+    "name": "Dips",
+    "movement": "push",
+    "muscles": ["Chest", "Triceps", "Front Delts"]
+  },
+  {
+    "id": "lateral-raises",
+    "name": "Lateral Raises",
+    "movement": "push",
+    "muscles": ["Lateral Delts"]
+  },
+  {
+    "id": "pec-deck",
+    "name": "Pec Deck",
+    "movement": "push",
+    "muscles": ["Chest"]
+  },
+  {
+    "id": "shoulder-press",
+    "name": "Shoulder Press",
+    "movement": "push",
+    "muscles": ["Shoulders", "Triceps"]
+  },
+  {
+    "id": "tricep-press",
+    "name": "Tricep Press",
+    "movement": "push",
+    "muscles": ["Triceps"]
+  },
+  {
+    "id": "cable-pushdown",
+    "name": "Cable Pushdown",
+    "movement": "push",
+    "muscles": ["Triceps"]
+  },
+  {
+    "id": "overhead-dumbbell-pushdown",
+    "name": "Overhead Dumbbell Pushdown",
+    "movement": "push",
+    "muscles": ["Triceps"]
+  },
+  {
+    "id": "overhead-cable-tricep-extension",
+    "name": "Overhead Cable Tricep Extension",
+    "movement": "push",
+    "muscles": ["Triceps"]
+  },
+  {
+    "id": "deadlifts",
+    "name": "Deadlifts",
+    "movement": "pull",
+    "muscles": ["Lower Back", "Glutes", "Hamstrings", "Traps"]
+  },
+  {
+    "id": "chest-supported-row",
+    "name": "Chest Supported Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Rear Delts", "Biceps"]
+  },
+  {
+    "id": "lat-pulldown",
+    "name": "Lat Pulldown",
+    "movement": "pull",
+    "muscles": ["Lats", "Biceps", "Mid Back"]
+  },
+  {
+    "id": "seated-row-chest-support",
+    "name": "Seated Row with Chest Support",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps", "Rear Delts"]
+  },
+  {
+    "id": "t-bar-row",
+    "name": "T-Bar Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "pull-ups",
+    "name": "Pull Ups",
+    "movement": "pull",
+    "muscles": ["Lats", "Biceps", "Mid Back"]
+  },
+  {
+    "id": "shrugs",
+    "name": "Shrugs",
+    "movement": "pull",
+    "muscles": ["Traps"]
+  },
+  {
+    "id": "rear-delt",
+    "name": "Rear Delt",
+    "movement": "pull",
+    "muscles": ["Rear Delts", "Mid Back"]
+  },
+  {
+    "id": "hammer-curl",
+    "name": "Hammer Curl",
+    "movement": "pull",
+    "muscles": ["Biceps", "Brachialis", "Forearms"]
+  },
+  {
+    "id": "preacher-curl",
+    "name": "Preacher Curl",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "preacher-barbell",
+    "name": "Preacher Curl with Barbell",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "cable-curls-straight-bar",
+    "name": "Cable Curls with Straight Bar",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "forearm-curls",
+    "name": "Forearm / Wrist Curls",
+    "movement": "pull",
+    "muscles": ["Forearms"]
+  },
+  {
+    "id": "squats",
+    "name": "Squats",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes", "Hamstrings"]
+  },
+  {
+    "id": "hack-squat",
+    "name": "Hack Squat",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes"]
+  },
+  {
+    "id": "romanian-deadlift",
+    "name": "Romanian Deadlift",
+    "movement": "legs",
+    "muscles": ["Hamstrings", "Glutes", "Lower Back"]
+  },
+  {
+    "id": "walking-lunges",
+    "name": "Walking Lunges",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes", "Hamstrings"]
+  },
+  {
+    "id": "glute-bridges",
+    "name": "Glute Bridges",
+    "movement": "legs",
+    "muscles": ["Glutes", "Hamstrings"]
+  },
+  {
+    "id": "hip-abductor",
+    "name": "Hip Abductor",
+    "movement": "legs",
+    "muscles": ["Hip Abductors", "Glutes"]
+  },
+  {
+    "id": "leg-extension",
+    "name": "Leg Extension",
+    "movement": "legs",
+    "muscles": ["Quads"]
+  },
+  {
+    "id": "leg-curls",
+    "name": "Leg Curls",
+    "movement": "legs",
+    "muscles": ["Hamstrings"]
+  },
+  {
+    "id": "standing-calf-raises",
+    "name": "Standing Calf Raises",
+    "movement": "legs",
+    "muscles": ["Calves"]
+  },
+  {
+    "id": "treadmill",
+    "name": "Treadmill",
+    "movement": "cardio",
+    "muscles": ["Cardiovascular", "Legs"]
+  },
+  {
+    "id": "stairmaster",
+    "name": "Stairmaster",
+    "movement": "cardio",
+    "muscles": ["Cardiovascular", "Glutes", "Quads", "Calves"]
+  },
+  {
+    "id": "fan-cycle",
+    "name": "Fan Cycle",
+    "movement": "cardio",
+    "muscles": ["Cardiovascular", "Full Body"]
+  },
+  {
+    "id": "leg-raises",
+    "name": "Leg Raises",
+    "movement": "core",
+    "muscles": ["Abs", "Hip Flexors"]
+  },
+  {
+    "id": "hanging-leg-raises",
+    "name": "Hanging Leg Raises",
+    "movement": "core",
+    "muscles": ["Abs", "Hip Flexors"]
+  },
+  {
+    "id": "cobra-pose",
+    "name": "Cobra Pose",
+    "movement": "core",
+    "muscles": ["Lower Back", "Spinal Erectors", "Abs"]
+  }
+]
