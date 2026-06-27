@@ -250,5 +250,1421 @@
     "name": "Cobra Pose",
     "movement": "core",
     "muscles": ["Lower Back", "Spinal Erectors", "Abs"]
+  },
+  {
+    "id": "flat-dumbbell-press",
+    "name": "Flat Dumbbell Press",
+    "movement": "push",
+    "muscles": ["Chest", "Triceps", "Front Delts"]
+  },
+  {
+    "id": "decline-bench-press",
+    "name": "Decline Bench Press",
+    "movement": "push",
+    "muscles": ["Lower Chest", "Triceps", "Front Delts"]
+  },
+  {
+    "id": "decline-dumbbell-press",
+    "name": "Decline Dumbbell Press",
+    "movement": "push",
+    "muscles": ["Lower Chest", "Triceps", "Front Delts"]
+  },
+  {
+    "id": "machine-chest-press",
+    "name": "Machine Chest Press",
+    "movement": "push",
+    "muscles": ["Chest", "Triceps", "Front Delts"]
+  },
+  {
+    "id": "cable-fly",
+    "name": "Cable Fly",
+    "movement": "push",
+    "muscles": ["Chest"]
+  },
+  {
+    "id": "low-to-high-cable-fly",
+    "name": "Low to High Cable Fly",
+    "movement": "push",
+    "muscles": ["Upper Chest"]
+  },
+  {
+    "id": "high-to-low-cable-fly",
+    "name": "High to Low Cable Fly",
+    "movement": "push",
+    "muscles": ["Lower Chest"]
+  },
+  {
+    "id": "push-ups",
+    "name": "Push Ups",
+    "movement": "push",
+    "muscles": ["Chest", "Triceps", "Front Delts"]
+  },
+  {
+    "id": "weighted-push-ups",
+    "name": "Weighted Push Ups",
+    "movement": "push",
+    "muscles": ["Chest", "Triceps", "Front Delts"]
+  },
+  {
+    "id": "smith-machine-bench-press",
+    "name": "Smith Machine Bench Press",
+    "movement": "push",
+    "muscles": ["Chest", "Triceps", "Front Delts"]
+  },
+  {
+    "id": "arnold-press",
+    "name": "Arnold Press",
+    "movement": "push",
+    "muscles": ["Shoulders", "Front Delts", "Triceps"]
+  },
+  {
+    "id": "dumbbell-shoulder-press",
+    "name": "Dumbbell Shoulder Press",
+    "movement": "push",
+    "muscles": ["Shoulders", "Triceps"]
+  },
+  {
+    "id": "machine-shoulder-press",
+    "name": "Machine Shoulder Press",
+    "movement": "push",
+    "muscles": ["Shoulders", "Triceps"]
+  },
+  {
+    "id": "front-raises",
+    "name": "Front Raises",
+    "movement": "push",
+    "muscles": ["Front Delts"]
+  },
+  {
+    "id": "cable-lateral-raises",
+    "name": "Cable Lateral Raises",
+    "movement": "push",
+    "muscles": ["Lateral Delts"]
+  },
+  {
+    "id": "upright-rows",
+    "name": "Upright Rows",
+    "movement": "push",
+    "muscles": ["Shoulders", "Traps"]
+  },
+  {
+    "id": "face-pulls",
+    "name": "Face Pulls",
+    "movement": "pull",
+    "muscles": ["Rear Delts", "Traps", "Mid Back"]
+  },
+  {
+    "id": "skull-crushers",
+    "name": "Skull Crushers",
+    "movement": "push",
+    "muscles": ["Triceps"]
+  },
+  {
+    "id": "close-grip-bench-press",
+    "name": "Close Grip Bench Press",
+    "movement": "push",
+    "muscles": ["Triceps", "Chest"]
+  },
+  {
+    "id": "jm-press",
+    "name": "JM Press",
+    "movement": "push",
+    "muscles": ["Triceps"]
+  },
+  {
+    "id": "rope-pushdowns",
+    "name": "Rope Pushdowns",
+    "movement": "push",
+    "muscles": ["Triceps"]
+  },
+  {
+    "id": "single-arm-cable-pushdowns",
+    "name": "Single Arm Cable Pushdowns",
+    "movement": "push",
+    "muscles": ["Triceps"]
+  },
+  {
+    "id": "dumbbell-kickbacks",
+    "name": "Dumbbell Kickbacks",
+    "movement": "push",
+    "muscles": ["Triceps"]
+  },
+  {
+    "id": "bent-over-barbell-row",
+    "name": "Bent Over Barbell Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "one-arm-dumbbell-row",
+    "name": "One Arm Dumbbell Row",
+    "movement": "pull",
+    "muscles": ["Lats", "Mid Back", "Biceps"]
+  },
+  {
+    "id": "pendlay-row",
+    "name": "Pendlay Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Rear Delts"]
+  },
+  {
+    "id": "cable-row",
+    "name": "Cable Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "machine-row",
+    "name": "Machine Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "meadows-row",
+    "name": "Meadows Row",
+    "movement": "pull",
+    "muscles": ["Lats", "Mid Back", "Rear Delts"]
+  },
+  {
+    "id": "straight-arm-pulldown",
+    "name": "Straight Arm Pulldown",
+    "movement": "pull",
+    "muscles": ["Lats"]
+  },
+  {
+    "id": "assisted-pull-ups",
+    "name": "Assisted Pull Ups",
+    "movement": "pull",
+    "muscles": ["Lats", "Biceps", "Mid Back"]
+  },
+  {
+    "id": "chin-ups",
+    "name": "Chin Ups",
+    "movement": "pull",
+    "muscles": ["Lats", "Biceps"]
+  },
+  {
+    "id": "rack-pulls",
+    "name": "Rack Pulls",
+    "movement": "pull",
+    "muscles": ["Traps", "Lower Back", "Glutes"]
+  },
+  {
+    "id": "reverse-pec-deck",
+    "name": "Reverse Pec Deck",
+    "movement": "pull",
+    "muscles": ["Rear Delts", "Mid Back"]
+  },
+  {
+    "id": "cable-rear-delt-fly",
+    "name": "Cable Rear Delt Fly",
+    "movement": "pull",
+    "muscles": ["Rear Delts"]
+  },
+  {
+    "id": "dumbbell-rear-delt-fly",
+    "name": "Dumbbell Rear Delt Fly",
+    "movement": "pull",
+    "muscles": ["Rear Delts"]
+  },
+  {
+    "id": "farmers-walk",
+    "name": "Farmer's Walk",
+    "movement": "pull",
+    "muscles": ["Traps", "Forearms", "Core"]
+  },
+  {
+    "id": "behind-the-back-shrugs",
+    "name": "Behind the Back Shrugs",
+    "movement": "pull",
+    "muscles": ["Traps"]
+  },
+  {
+    "id": "barbell-curl",
+    "name": "Barbell Curl",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "ez-bar-curl",
+    "name": "EZ Bar Curl",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "incline-dumbbell-curl",
+    "name": "Incline Dumbbell Curl",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "concentration-curl",
+    "name": "Concentration Curl",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "bayesian-cable-curl",
+    "name": "Bayesian Cable Curl",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "spider-curl",
+    "name": "Spider Curl",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "cross-body-hammer-curl",
+    "name": "Cross Body Hammer Curl",
+    "movement": "pull",
+    "muscles": ["Biceps", "Brachialis"]
+  },
+  {
+    "id": "reverse-curl",
+    "name": "Reverse Curl",
+    "movement": "pull",
+    "muscles": ["Forearms", "Biceps"]
+  },
+  {
+    "id": "reverse-wrist-curl",
+    "name": "Reverse Wrist Curl",
+    "movement": "pull",
+    "muscles": ["Forearms"]
+  },
+  {
+    "id": "farmers-carry",
+    "name": "Farmer's Carry",
+    "movement": "pull",
+    "muscles": ["Forearms", "Traps", "Core"]
+  },
+  {
+    "id": "plate-pinch-hold",
+    "name": "Plate Pinch Hold",
+    "movement": "pull",
+    "muscles": ["Forearms", "Grip"]
+  },
+  {
+    "id": "leg-press",
+    "name": "Leg Press",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes", "Hamstrings"]
+  },
+  {
+    "id": "bulgarian-split-squat",
+    "name": "Bulgarian Split Squat",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes", "Hamstrings"]
+  },
+  {
+    "id": "front-squat",
+    "name": "Front Squat",
+    "movement": "legs",
+    "muscles": ["Quads", "Core"]
+  },
+  {
+    "id": "goblet-squat",
+    "name": "Goblet Squat",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes"]
+  },
+  {
+    "id": "smith-machine-squat",
+    "name": "Smith Machine Squat",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes"]
+  },
+  {
+    "id": "sissy-squat",
+    "name": "Sissy Squat",
+    "movement": "legs",
+    "muscles": ["Quads"]
+  },
+  {
+    "id": "step-ups",
+    "name": "Step Ups",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes", "Hamstrings"]
+  },
+  {
+    "id": "seated-leg-curl",
+    "name": "Seated Leg Curl",
+    "movement": "legs",
+    "muscles": ["Hamstrings"]
+  },
+  {
+    "id": "lying-leg-curl",
+    "name": "Lying Leg Curl",
+    "movement": "legs",
+    "muscles": ["Hamstrings"]
+  },
+  {
+    "id": "nordic-curl",
+    "name": "Nordic Curl",
+    "movement": "legs",
+    "muscles": ["Hamstrings"]
+  },
+  {
+    "id": "good-mornings",
+    "name": "Good Mornings",
+    "movement": "legs",
+    "muscles": ["Hamstrings", "Glutes", "Lower Back"]
+  },
+  {
+    "id": "barbell-hip-thrust",
+    "name": "Barbell Hip Thrust",
+    "movement": "legs",
+    "muscles": ["Glutes", "Hamstrings"]
+  },
+  {
+    "id": "cable-kickbacks",
+    "name": "Cable Kickbacks",
+    "movement": "legs",
+    "muscles": ["Glutes"]
+  },
+  {
+    "id": "single-leg-glute-bridge",
+    "name": "Single Leg Glute Bridge",
+    "movement": "legs",
+    "muscles": ["Glutes", "Hamstrings"]
+  },
+  {
+    "id": "seated-calf-raises",
+    "name": "Seated Calf Raises",
+    "movement": "legs",
+    "muscles": ["Calves"]
+  },
+  {
+    "id": "donkey-calf-raises",
+    "name": "Donkey Calf Raises",
+    "movement": "legs",
+    "muscles": ["Calves"]
+  },
+  {
+    "id": "leg-press-calf-raises",
+    "name": "Leg Press Calf Raises",
+    "movement": "legs",
+    "muscles": ["Calves"]
+  },
+  {
+    "id": "hip-adductor-machine",
+    "name": "Hip Adductor Machine",
+    "movement": "legs",
+    "muscles": ["Hip Adductors"]
+  },
+  {
+    "id": "copenhagen-plank",
+    "name": "Copenhagen Plank",
+    "movement": "core",
+    "muscles": ["Hip Adductors", "Core"]
+  },
+  {
+    "id": "cable-crunch",
+    "name": "Cable Crunch",
+    "movement": "core",
+    "muscles": ["Abs"]
+  },
+  {
+    "id": "machine-crunch",
+    "name": "Machine Crunch",
+    "movement": "core",
+    "muscles": ["Abs"]
+  },
+  {
+    "id": "crunches",
+    "name": "Crunches",
+    "movement": "core",
+    "muscles": ["Abs"]
+  },
+  {
+    "id": "reverse-crunches",
+    "name": "Reverse Crunches",
+    "movement": "core",
+    "muscles": ["Abs"]
+  },
+  {
+    "id": "bicycle-crunches",
+    "name": "Bicycle Crunches",
+    "movement": "core",
+    "muscles": ["Abs", "Obliques"]
+  },
+  {
+    "id": "decline-sit-ups",
+    "name": "Decline Sit Ups",
+    "movement": "core",
+    "muscles": ["Abs"]
+  },
+  {
+    "id": "russian-twists",
+    "name": "Russian Twists",
+    "movement": "core",
+    "muscles": ["Obliques"]
+  },
+  {
+    "id": "cable-woodchoppers",
+    "name": "Cable Woodchoppers",
+    "movement": "core",
+    "muscles": ["Obliques", "Core"]
+  },
+  {
+    "id": "side-plank",
+    "name": "Side Plank",
+    "movement": "core",
+    "muscles": ["Obliques", "Core"]
+  },
+  {
+    "id": "hanging-knee-raises",
+    "name": "Hanging Knee Raises",
+    "movement": "core",
+    "muscles": ["Abs", "Hip Flexors"]
+  },
+  {
+    "id": "plank",
+    "name": "Plank",
+    "movement": "core",
+    "muscles": ["Core"]
+  },
+  {
+    "id": "dead-bug",
+    "name": "Dead Bug",
+    "movement": "core",
+    "muscles": ["Core"]
+  },
+  {
+    "id": "bird-dog",
+    "name": "Bird Dog",
+    "movement": "core",
+    "muscles": ["Core", "Lower Back"]
+  },
+  {
+    "id": "ab-wheel-rollout",
+    "name": "Ab Wheel Rollout",
+    "movement": "core",
+    "muscles": ["Abs", "Core"]
+  },
+  {
+    "id": "pallof-press",
+    "name": "Pallof Press",
+    "movement": "core",
+    "muscles": ["Core", "Obliques"]
+  },
+  {
+    "id": "rowing-machine",
+    "name": "Rowing Machine",
+    "movement": "cardio",
+    "muscles": ["Cardiovascular", "Full Body"]
+  },
+  {
+    "id": "elliptical",
+    "name": "Elliptical",
+    "movement": "cardio",
+    "muscles": ["Cardiovascular", "Legs"]
+  },
+  {
+    "id": "assault-bike",
+    "name": "Assault Bike",
+    "movement": "cardio",
+    "muscles": ["Cardiovascular", "Full Body"]
+  },
+  {
+    "id": "jump-rope",
+    "name": "Jump Rope",
+    "movement": "cardio",
+    "muscles": ["Cardiovascular", "Calves"]
+  },
+  {
+    "id": "outdoor-running",
+    "name": "Outdoor Running",
+    "movement": "cardio",
+    "muscles": ["Cardiovascular", "Legs"]
+  },
+  {
+    "id": "cycling",
+    "name": "Cycling",
+    "movement": "cardio",
+    "muscles": ["Cardiovascular", "Quads", "Glutes"]
+  },
+  {
+    "id": "swimming",
+    "name": "Swimming",
+    "movement": "cardio",
+    "muscles": ["Cardiovascular", "Full Body"]
+  },
+  {
+    "id": "incline-walking",
+    "name": "Incline Walking",
+    "movement": "cardio",
+    "muscles": ["Cardiovascular", "Glutes", "Calves"]
+  },
+  {
+    "id": "sled-push",
+    "name": "Sled Push",
+    "movement": "cardio",
+    "muscles": ["Quads", "Glutes", "Cardiovascular"]
+  },
+  {
+    "id": "power-clean",
+    "name": "Power Clean",
+    "movement": "fullbody",
+    "muscles": ["Traps", "Glutes", "Hamstrings", "Quads"]
+  },
+  {
+    "id": "clean-and-jerk",
+    "name": "Clean and Jerk",
+    "movement": "fullbody",
+    "muscles": ["Full Body"]
+  },
+  {
+    "id": "snatch",
+    "name": "Snatch",
+    "movement": "fullbody",
+    "muscles": ["Full Body"]
+  },
+  {
+    "id": "kettlebell-swing",
+    "name": "Kettlebell Swing",
+    "movement": "fullbody",
+    "muscles": ["Glutes", "Hamstrings", "Core"]
+  },
+  {
+    "id": "turkish-get-up",
+    "name": "Turkish Get Up",
+    "movement": "core",
+    "muscles": ["Core", "Shoulders", "Full Body"]
+  },
+  {
+    "id": "sled-pull",
+    "name": "Sled Pull",
+    "movement": "cardio",
+    "muscles": ["Back", "Legs", "Cardiovascular"]
+  },
+  {
+    "id": "battle-ropes",
+    "name": "Battle Ropes",
+    "movement": "cardio",
+    "muscles": ["Shoulders", "Arms", "Cardiovascular"]
+  },
+  {
+    "id": "wide-grip-lat-pulldown",
+    "name": "Wide Grip Lat Pulldown",
+    "movement": "pull",
+    "muscles": ["Lats", "Mid Back", "Biceps"]
+  },
+  {
+    "id": "close-grip-lat-pulldown",
+    "name": "Close Grip Lat Pulldown",
+    "movement": "pull",
+    "muscles": ["Lats", "Mid Back", "Biceps"]
+  },
+  {
+    "id": "neutral-grip-lat-pulldown",
+    "name": "Neutral Grip Lat Pulldown",
+    "movement": "pull",
+    "muscles": ["Lats", "Mid Back", "Biceps"]
+  },
+  {
+    "id": "reverse-grip-lat-pulldown",
+    "name": "Reverse Grip Lat Pulldown",
+    "movement": "pull",
+    "muscles": ["Lats", "Biceps", "Mid Back"]
+  },
+  {
+    "id": "single-arm-lat-pulldown",
+    "name": "Single Arm Lat Pulldown",
+    "movement": "pull",
+    "muscles": ["Lats", "Biceps"]
+  },
+  {
+    "id": "kneeling-lat-pulldown",
+    "name": "Kneeling Lat Pulldown",
+    "movement": "pull",
+    "muscles": ["Lats", "Mid Back", "Biceps"]
+  },
+  {
+    "id": "half-kneeling-lat-pulldown",
+    "name": "Half Kneeling Lat Pulldown",
+    "movement": "pull",
+    "muscles": ["Lats", "Mid Back", "Core"]
+  },
+  {
+    "id": "cable-lat-pullover",
+    "name": "Cable Lat Pullover",
+    "movement": "pull",
+    "muscles": ["Lats", "Chest"]
+  },
+  {
+    "id": "straight-bar-lat-pulldown",
+    "name": "Straight Bar Lat Pulldown",
+    "movement": "pull",
+    "muscles": ["Lats", "Biceps"]
+  },
+  {
+    "id": "v-bar-lat-pulldown",
+    "name": "V-Bar Lat Pulldown",
+    "movement": "pull",
+    "muscles": ["Lats", "Mid Back", "Biceps"]
+  },
+  {
+    "id": "behind-neck-lat-pulldown",
+    "name": "Behind Neck Lat Pulldown",
+    "movement": "pull",
+    "muscles": ["Lats", "Mid Back"]
+  },
+  {
+    "id": "single-arm-cable-pulldown",
+    "name": "Single Arm Cable Pulldown",
+    "movement": "pull",
+    "muscles": ["Lats", "Biceps"]
+  },
+  {
+    "id": "seated-cable-row",
+    "name": "Seated Cable Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "wide-grip-seated-cable-row",
+    "name": "Wide Grip Seated Cable Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Rear Delts", "Lats"]
+  },
+  {
+    "id": "close-grip-seated-cable-row",
+    "name": "Close Grip Seated Cable Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "single-arm-cable-row",
+    "name": "Single Arm Cable Row",
+    "movement": "pull",
+    "muscles": ["Lats", "Mid Back", "Biceps"]
+  },
+  {
+    "id": "standing-cable-row",
+    "name": "Standing Cable Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Core"]
+  },
+  {
+    "id": "low-cable-row",
+    "name": "Low Cable Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "high-cable-row",
+    "name": "High Cable Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Traps", "Rear Delts"]
+  },
+  {
+    "id": "cable-high-row",
+    "name": "Cable High Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Rear Delts", "Traps"]
+  },
+  {
+    "id": "rope-cable-row",
+    "name": "Rope Cable Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Rear Delts"]
+  },
+  {
+    "id": "chest-supported-cable-row",
+    "name": "Chest Supported Cable Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Rear Delts"]
+  },
+  {
+    "id": "landmine-row",
+    "name": "Landmine Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "seal-row",
+    "name": "Seal Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Rear Delts"]
+  },
+  {
+    "id": "yates-row",
+    "name": "Yates Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "incline-dumbbell-row",
+    "name": "Incline Dumbbell Row",
+    "movement": "pull",
+    "muscles": ["Lats", "Mid Back", "Rear Delts"]
+  },
+  {
+    "id": "chest-supported-dumbbell-row",
+    "name": "Chest Supported Dumbbell Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Rear Delts"]
+  },
+  {
+    "id": "inverted-row",
+    "name": "Inverted Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "ring-row",
+    "name": "Ring Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "lat-pullover-machine",
+    "name": "Lat Pullover Machine",
+    "movement": "pull",
+    "muscles": ["Lats", "Chest"]
+  },
+  {
+    "id": "hammer-strength-row",
+    "name": "Hammer Strength Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "hammer-strength-high-row",
+    "name": "Hammer Strength High Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Traps", "Rear Delts"]
+  },
+  {
+    "id": "iso-lateral-row",
+    "name": "Iso-Lateral Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "lat-pulldown-machine",
+    "name": "Lat Pulldown Machine",
+    "movement": "pull",
+    "muscles": ["Lats", "Mid Back", "Biceps"]
+  },
+  {
+    "id": "neutral-grip-pull-ups",
+    "name": "Neutral Grip Pull Ups",
+    "movement": "pull",
+    "muscles": ["Lats", "Biceps", "Mid Back"]
+  },
+  {
+    "id": "wide-grip-pull-ups",
+    "name": "Wide Grip Pull Ups",
+    "movement": "pull",
+    "muscles": ["Lats", "Mid Back", "Biceps"]
+  },
+  {
+    "id": "weighted-pull-ups",
+    "name": "Weighted Pull Ups",
+    "movement": "pull",
+    "muscles": ["Lats", "Biceps", "Mid Back"]
+  },
+  {
+    "id": "weighted-chin-ups",
+    "name": "Weighted Chin Ups",
+    "movement": "pull",
+    "muscles": ["Lats", "Biceps"]
+  },
+  {
+    "id": "cable-shrugs",
+    "name": "Cable Shrugs",
+    "movement": "pull",
+    "muscles": ["Traps"]
+  },
+  {
+    "id": "dumbbell-shrugs",
+    "name": "Dumbbell Shrugs",
+    "movement": "pull",
+    "muscles": ["Traps"]
+  },
+  {
+    "id": "smith-machine-shrugs",
+    "name": "Smith Machine Shrugs",
+    "movement": "pull",
+    "muscles": ["Traps"]
+  },
+  {
+    "id": "cable-hammer-curl",
+    "name": "Cable Hammer Curl",
+    "movement": "pull",
+    "muscles": ["Biceps", "Brachialis", "Forearms"]
+  },
+  {
+    "id": "cable-preacher-curl",
+    "name": "Cable Preacher Curl",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "cable-rope-curl",
+    "name": "Cable Rope Curl",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "incline-cable-curl",
+    "name": "Incline Cable Curl",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "single-arm-cable-curl",
+    "name": "Single Arm Cable Curl",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "dumbbell-curl",
+    "name": "Dumbbell Curl",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "zottman-curl",
+    "name": "Zottman Curl",
+    "movement": "pull",
+    "muscles": ["Biceps", "Forearms"]
+  },
+  {
+    "id": "drag-curl",
+    "name": "Drag Curl",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "machine-curl",
+    "name": "Machine Curl",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "machine-preacher-curl",
+    "name": "Machine Preacher Curl",
+    "movement": "pull",
+    "muscles": ["Biceps"]
+  },
+  {
+    "id": "wrist-roller",
+    "name": "Wrist Roller",
+    "movement": "pull",
+    "muscles": ["Forearms"]
+  },
+  {
+    "id": "renegade-row",
+    "name": "Renegade Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Core"]
+  },
+  {
+    "id": "gorilla-row",
+    "name": "Gorilla Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "kroc-row",
+    "name": "Kroc Row",
+    "movement": "pull",
+    "muscles": ["Lats", "Mid Back", "Traps"]
+  },
+  {
+    "id": "cable-rope-face-pull",
+    "name": "Cable Rope Face Pull",
+    "movement": "pull",
+    "muscles": ["Rear Delts", "Traps", "Mid Back"]
+  },
+  {
+    "id": "cable-upright-row",
+    "name": "Cable Upright Row",
+    "movement": "pull",
+    "muscles": ["Traps", "Shoulders"]
+  },
+  {
+    "id": "landmine-press",
+    "name": "Landmine Press",
+    "movement": "push",
+    "muscles": ["Chest", "Shoulders", "Triceps"]
+  },
+  {
+    "id": "single-arm-landmine-press",
+    "name": "Single Arm Landmine Press",
+    "movement": "push",
+    "muscles": ["Shoulders", "Chest", "Triceps"]
+  },
+  {
+    "id": "cable-crossover",
+    "name": "Cable Crossover",
+    "movement": "push",
+    "muscles": ["Chest"]
+  },
+  {
+    "id": "single-arm-cable-fly",
+    "name": "Single Arm Cable Fly",
+    "movement": "push",
+    "muscles": ["Chest"]
+  },
+  {
+    "id": "dumbbell-fly",
+    "name": "Dumbbell Fly",
+    "movement": "push",
+    "muscles": ["Chest"]
+  },
+  {
+    "id": "incline-dumbbell-fly",
+    "name": "Incline Dumbbell Fly",
+    "movement": "push",
+    "muscles": ["Upper Chest"]
+  },
+  {
+    "id": "decline-dumbbell-fly",
+    "name": "Decline Dumbbell Fly",
+    "movement": "push",
+    "muscles": ["Lower Chest"]
+  },
+  {
+    "id": "floor-press",
+    "name": "Floor Press",
+    "movement": "push",
+    "muscles": ["Chest", "Triceps"]
+  },
+  {
+    "id": "pin-press",
+    "name": "Pin Press",
+    "movement": "push",
+    "muscles": ["Chest", "Triceps", "Shoulders"]
+  },
+  {
+    "id": "dumbbell-pullover",
+    "name": "Dumbbell Pullover",
+    "movement": "push",
+    "muscles": ["Chest", "Lats"]
+  },
+  {
+    "id": "cable-incline-fly",
+    "name": "Cable Incline Fly",
+    "movement": "push",
+    "muscles": ["Upper Chest"]
+  },
+  {
+    "id": "cable-decline-fly",
+    "name": "Cable Decline Fly",
+    "movement": "push",
+    "muscles": ["Lower Chest"]
+  },
+  {
+    "id": "single-arm-dumbbell-press",
+    "name": "Single Arm Dumbbell Press",
+    "movement": "push",
+    "muscles": ["Chest", "Triceps", "Front Delts"]
+  },
+  {
+    "id": "machine-incline-press",
+    "name": "Machine Incline Press",
+    "movement": "push",
+    "muscles": ["Upper Chest", "Triceps"]
+  },
+  {
+    "id": "machine-decline-press",
+    "name": "Machine Decline Press",
+    "movement": "push",
+    "muscles": ["Lower Chest", "Triceps"]
+  },
+  {
+    "id": "smith-machine-incline-press",
+    "name": "Smith Machine Incline Press",
+    "movement": "push",
+    "muscles": ["Upper Chest", "Triceps"]
+  },
+  {
+    "id": "smith-machine-decline-press",
+    "name": "Smith Machine Decline Press",
+    "movement": "push",
+    "muscles": ["Lower Chest", "Triceps"]
+  },
+  {
+    "id": "svend-press",
+    "name": "Svend Press",
+    "movement": "push",
+    "muscles": ["Chest"]
+  },
+  {
+    "id": "hex-press",
+    "name": "Hex Press",
+    "movement": "push",
+    "muscles": ["Chest", "Triceps"]
+  },
+  {
+    "id": "bench-dips",
+    "name": "Bench Dips",
+    "movement": "push",
+    "muscles": ["Triceps", "Chest"]
+  },
+  {
+    "id": "ring-dips",
+    "name": "Ring Dips",
+    "movement": "push",
+    "muscles": ["Chest", "Triceps", "Shoulders"]
+  },
+  {
+    "id": "deficit-push-ups",
+    "name": "Deficit Push Ups",
+    "movement": "push",
+    "muscles": ["Chest", "Triceps", "Front Delts"]
+  },
+  {
+    "id": "diamond-push-ups",
+    "name": "Diamond Push Ups",
+    "movement": "push",
+    "muscles": ["Triceps", "Chest"]
+  },
+  {
+    "id": "reverse-grip-pushdown",
+    "name": "Reverse Grip Pushdown",
+    "movement": "push",
+    "muscles": ["Triceps"]
+  },
+  {
+    "id": "cable-overhead-press",
+    "name": "Cable Overhead Press",
+    "movement": "push",
+    "muscles": ["Shoulders", "Triceps"]
+  },
+  {
+    "id": "cable-front-raise",
+    "name": "Cable Front Raise",
+    "movement": "push",
+    "muscles": ["Front Delts"]
+  },
+  {
+    "id": "cable-y-raise",
+    "name": "Cable Y Raise",
+    "movement": "push",
+    "muscles": ["Rear Delts", "Traps"]
+  },
+  {
+    "id": "sumo-deadlift",
+    "name": "Sumo Deadlift",
+    "movement": "legs",
+    "muscles": ["Glutes", "Hamstrings", "Quads", "Adductors"]
+  },
+  {
+    "id": "trap-bar-deadlift",
+    "name": "Trap Bar Deadlift",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes", "Hamstrings", "Traps"]
+  },
+  {
+    "id": "stiff-leg-deadlift",
+    "name": "Stiff Leg Deadlift",
+    "movement": "legs",
+    "muscles": ["Hamstrings", "Glutes", "Lower Back"]
+  },
+  {
+    "id": "single-leg-rdl",
+    "name": "Single Leg RDL",
+    "movement": "legs",
+    "muscles": ["Hamstrings", "Glutes"]
+  },
+  {
+    "id": "dumbbell-rdl",
+    "name": "Dumbbell RDL",
+    "movement": "legs",
+    "muscles": ["Hamstrings", "Glutes"]
+  },
+  {
+    "id": "snatch-grip-deadlift",
+    "name": "Snatch Grip Deadlift",
+    "movement": "legs",
+    "muscles": ["Hamstrings", "Glutes", "Traps", "Lower Back"]
+  },
+  {
+    "id": "belt-squat",
+    "name": "Belt Squat",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes"]
+  },
+  {
+    "id": "safety-bar-squat",
+    "name": "Safety Bar Squat",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes", "Core"]
+  },
+  {
+    "id": "box-squat",
+    "name": "Box Squat",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes", "Hamstrings"]
+  },
+  {
+    "id": "pause-squat",
+    "name": "Pause Squat",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes"]
+  },
+  {
+    "id": "reverse-lunge",
+    "name": "Reverse Lunge",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes", "Hamstrings"]
+  },
+  {
+    "id": "forward-lunge",
+    "name": "Forward Lunge",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes"]
+  },
+  {
+    "id": "lateral-lunge",
+    "name": "Lateral Lunge",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes", "Adductors"]
+  },
+  {
+    "id": "split-squat",
+    "name": "Split Squat",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes", "Hamstrings"]
+  },
+  {
+    "id": "zercher-squat",
+    "name": "Zercher Squat",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes", "Core"]
+  },
+  {
+    "id": "landmine-squat",
+    "name": "Landmine Squat",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes"]
+  },
+  {
+    "id": "glute-ham-raise",
+    "name": "Glute Ham Raise",
+    "movement": "legs",
+    "muscles": ["Hamstrings", "Glutes"]
+  },
+  {
+    "id": "back-extension",
+    "name": "Back Extension",
+    "movement": "legs",
+    "muscles": ["Lower Back", "Glutes", "Hamstrings"]
+  },
+  {
+    "id": "reverse-hyper",
+    "name": "Reverse Hyper",
+    "movement": "legs",
+    "muscles": ["Glutes", "Hamstrings", "Lower Back"]
+  },
+  {
+    "id": "cable-pull-through",
+    "name": "Cable Pull Through",
+    "movement": "legs",
+    "muscles": ["Glutes", "Hamstrings"]
+  },
+  {
+    "id": "cable-hip-abduction",
+    "name": "Cable Hip Abduction",
+    "movement": "legs",
+    "muscles": ["Hip Abductors", "Glutes"]
+  },
+  {
+    "id": "hip-thrust-machine",
+    "name": "Hip Thrust Machine",
+    "movement": "legs",
+    "muscles": ["Glutes", "Hamstrings"]
+  },
+  {
+    "id": "smith-machine-lunge",
+    "name": "Smith Machine Lunge",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes"]
+  },
+  {
+    "id": "tibialis-raise",
+    "name": "Tibialis Raise",
+    "movement": "legs",
+    "muscles": ["Tibialis Anterior", "Shins"]
+  },
+  {
+    "id": "v-ups",
+    "name": "V-Ups",
+    "movement": "core",
+    "muscles": ["Abs", "Hip Flexors"]
+  },
+  {
+    "id": "toe-touches",
+    "name": "Toe Touches",
+    "movement": "core",
+    "muscles": ["Abs"]
+  },
+  {
+    "id": "hollow-hold",
+    "name": "Hollow Hold",
+    "movement": "core",
+    "muscles": ["Abs", "Core"]
+  },
+  {
+    "id": "hollow-rock",
+    "name": "Hollow Rock",
+    "movement": "core",
+    "muscles": ["Abs", "Core"]
+  },
+  {
+    "id": "toes-to-bar",
+    "name": "Toes to Bar",
+    "movement": "core",
+    "muscles": ["Abs", "Hip Flexors"]
+  },
+  {
+    "id": "windshield-wipers",
+    "name": "Windshield Wipers",
+    "movement": "core",
+    "muscles": ["Obliques", "Abs"]
+  },
+  {
+    "id": "landmine-rotation",
+    "name": "Landmine Rotation",
+    "movement": "core",
+    "muscles": ["Obliques", "Core"]
+  },
+  {
+    "id": "cable-side-bend",
+    "name": "Cable Side Bend",
+    "movement": "core",
+    "muscles": ["Obliques"]
+  },
+  {
+    "id": "dumbbell-side-bend",
+    "name": "Dumbbell Side Bend",
+    "movement": "core",
+    "muscles": ["Obliques"]
+  },
+  {
+    "id": "superman",
+    "name": "Superman",
+    "movement": "core",
+    "muscles": ["Lower Back", "Glutes"]
+  },
+  {
+    "id": "mountain-climbers",
+    "name": "Mountain Climbers",
+    "movement": "core",
+    "muscles": ["Core", "Hip Flexors", "Cardiovascular"]
+  },
+  {
+    "id": "flutter-kicks",
+    "name": "Flutter Kicks",
+    "movement": "core",
+    "muscles": ["Abs", "Hip Flexors"]
+  },
+  {
+    "id": "ski-erg",
+    "name": "Ski Erg",
+    "movement": "cardio",
+    "muscles": ["Cardiovascular", "Lats", "Triceps"]
+  },
+  {
+    "id": "versa-climber",
+    "name": "VersaClimber",
+    "movement": "cardio",
+    "muscles": ["Cardiovascular", "Full Body"]
+  },
+  {
+    "id": "burpees",
+    "name": "Burpees",
+    "movement": "cardio",
+    "muscles": ["Cardiovascular", "Full Body"]
+  },
+  {
+    "id": "sprint-intervals",
+    "name": "Sprint Intervals",
+    "movement": "cardio",
+    "muscles": ["Cardiovascular", "Legs"]
+  },
+  {
+    "id": "prowler-push",
+    "name": "Prowler Push",
+    "movement": "cardio",
+    "muscles": ["Quads", "Glutes", "Cardiovascular"]
+  },
+  {
+    "id": "chest-supported-t-bar-row",
+    "name": "Chest Supported T-Bar Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Rear Delts"]
+  },
+  {
+    "id": "cable-deadlift",
+    "name": "Cable Deadlift",
+    "movement": "pull",
+    "muscles": ["Hamstrings", "Glutes", "Lower Back"]
+  },
+  {
+    "id": "cable-lateral-pulldown-rope",
+    "name": "Rope Lat Pulldown",
+    "movement": "pull",
+    "muscles": ["Lats", "Mid Back", "Biceps"]
+  },
+  {
+    "id": "underhand-cable-row",
+    "name": "Underhand Cable Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "overhand-cable-row",
+    "name": "Overhand Cable Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Rear Delts"]
+  },
+  {
+    "id": "cable-bent-over-row",
+    "name": "Cable Bent Over Row",
+    "movement": "pull",
+    "muscles": ["Mid Back", "Lats", "Biceps"]
+  },
+  {
+    "id": "cable-tricep-kickback",
+    "name": "Cable Tricep Kickback",
+    "movement": "push",
+    "muscles": ["Triceps"]
+  },
+  {
+    "id": "cable-press-around",
+    "name": "Cable Press Around",
+    "movement": "push",
+    "muscles": ["Chest", "Shoulders"]
+  },
+  {
+    "id": "cable-squeeze-press",
+    "name": "Cable Squeeze Press",
+    "movement": "push",
+    "muscles": ["Chest", "Triceps"]
+  },
+  {
+    "id": "cable-glute-kickback",
+    "name": "Cable Glute Kickback",
+    "movement": "legs",
+    "muscles": ["Glutes", "Hamstrings"]
+  },
+  {
+    "id": "cable-squat",
+    "name": "Cable Squat",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes"]
+  },
+  {
+    "id": "cable-lunge",
+    "name": "Cable Lunge",
+    "movement": "legs",
+    "muscles": ["Quads", "Glutes"]
   }
 ]

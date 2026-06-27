@@ -1,15 +1,67 @@
 @import "tailwindcss";
-
-:root {
-  --background: #09090b;
-  --foreground: #fafafa;
-}
+@import "../styles/tokens.css";
+@import "../styles/components.css";
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-bg: var(--palette-bg);
+  --color-bg-elevated: var(--palette-bg-elevated);
+  --color-surface: var(--palette-surface);
+  --color-surface-muted: var(--palette-surface-muted);
+  --color-surface-subtle: var(--palette-surface-subtle);
+  --color-surface-hover: var(--palette-surface-hover);
+  --color-surface-active: var(--palette-surface-active);
+
+  --color-border: var(--palette-border);
+  --color-border-muted: var(--palette-border-muted);
+  --color-border-subtle: var(--palette-border-subtle);
+  --color-border-dashed: var(--palette-border-dashed);
+
+  --color-foreground: var(--palette-text);
+  --color-muted: var(--palette-text-muted);
+  --color-faint: var(--palette-text-faint);
+  --color-subtle: var(--palette-text-secondary);
+  --color-disabled: var(--palette-text-disabled);
+
+  --color-accent: var(--palette-accent);
+  --color-accent-hover: var(--palette-accent-hover);
+  --color-accent-active: var(--palette-accent-active);
+  --color-accent-muted: var(--palette-accent-muted);
+  --color-accent-subtle: var(--palette-accent-subtle);
+  --color-accent-border: var(--palette-accent-border);
+  --color-accent-text: var(--palette-accent-text);
+
+  --color-danger: var(--palette-danger);
+  --color-danger-muted: var(--palette-danger-muted);
+
+  --color-inverse: var(--palette-inverse);
+  --color-inverse-text: var(--palette-inverse-text);
+
+  --color-movement-push-bg: var(--movement-push-bg);
+  --color-movement-push: var(--movement-push-text);
+  --color-movement-push-border: var(--movement-push-border);
+
+  --color-movement-pull-bg: var(--movement-pull-bg);
+  --color-movement-pull: var(--movement-pull-text);
+  --color-movement-pull-border: var(--movement-pull-border);
+
+  --color-movement-legs-bg: var(--movement-legs-bg);
+  --color-movement-legs: var(--movement-legs-text);
+  --color-movement-legs-border: var(--movement-legs-border);
+
+  --color-movement-cardio-bg: var(--movement-cardio-bg);
+  --color-movement-cardio: var(--movement-cardio-text);
+  --color-movement-cardio-border: var(--movement-cardio-border);
+
+  --color-movement-core-bg: var(--movement-core-bg);
+  --color-movement-core: var(--movement-core-text);
+  --color-movement-core-border: var(--movement-core-border);
+
+  --color-movement-fullbody-bg: var(--movement-fullbody-bg);
+  --color-movement-fullbody: var(--movement-fullbody-text);
+  --color-movement-fullbody-border: var(--movement-fullbody-border);
+
+  --font-sans: var(--font-dm-sans);
+  --font-serif: var(--font-instrument-serif);
 }
 
 html {
@@ -17,23 +69,14 @@ html {
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--palette-bg);
+  color: var(--palette-text);
   font-family: var(--font-sans), system-ui, sans-serif;
   overflow-x: hidden;
 }
 
-.pb-safe {
-  padding-bottom: max(0.75rem, env(safe-area-inset-bottom));
-}
-
-.pt-safe {
-  padding-top: env(safe-area-inset-top, 0px);
-}
-
-.px-safe {
-  padding-left: max(1rem, env(safe-area-inset-left));
-  padding-right: max(1rem, env(safe-area-inset-right));
+.font-serif {
+  font-family: var(--font-serif), Georgia, "Times New Roman", serif;
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -45,9 +88,4 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
   appearance: textfield;
-}
-
-.touch-target {
-  min-height: 2.75rem;
-  min-width: 2.75rem;
 }

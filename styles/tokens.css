@@ -1,0 +1,84 @@
+:root {
+  --palette-bg: #09090b;
+  --palette-bg-elevated: #18181b;
+  --palette-surface: #18181b;
+  --palette-surface-muted: rgba(24, 24, 27, 0.6);
+  --palette-surface-subtle: rgba(24, 24, 27, 0.4);
+  --palette-surface-hover: #27272a;
+  --palette-surface-active: rgba(39, 39, 42, 0.6);
+
+  --palette-border: #27272a;
+  --palette-border-muted: rgba(39, 39, 42, 0.8);
+  --palette-border-subtle: rgba(39, 39, 42, 0.6);
+  --palette-border-dashed: #3f3f46;
+
+  --palette-text: #fafafa;
+  --palette-text-secondary: #d4d4d8;
+  --palette-text-muted: #a1a1aa;
+  --palette-text-faint: #71717a;
+  --palette-text-disabled: #52525b;
+
+  --palette-accent: #10b981;
+  --palette-accent-hover: #34d399;
+  --palette-accent-active: #059669;
+  --palette-accent-muted: rgba(16, 185, 129, 0.15);
+  --palette-accent-subtle: rgba(16, 185, 129, 0.05);
+  --palette-accent-border: rgba(16, 185, 129, 0.3);
+  --palette-accent-text: #34d399;
+
+  --palette-danger: #f87171;
+  --palette-danger-muted: rgba(248, 113, 113, 0.1);
+
+  --palette-inverse: #fafafa;
+  --palette-inverse-text: #18181b;
+
+  --palette-glow: rgba(16, 185, 129, 0.2);
+  --palette-glow-secondary: rgba(63, 63, 70, 0.3);
+  --palette-glow-intense: rgba(16, 185, 129, 0.35);
+
+  --hero-grid: rgba(255, 255, 255, 0.03);
+  --hero-spotlight: rgba(16, 185, 129, 0.12);
+  --hero-gradient-from: #fafafa;
+  --hero-gradient-mid: #34d399;
+  --hero-gradient-to: #a1a1aa;
+
+  --nav-bg: rgba(9, 9, 11, 0.9);
+  --nav-bg-scrolled: rgba(9, 9, 11, 0.96);
+  --nav-border: rgba(39, 39, 42, 0.75);
+  --nav-shadow-scrolled: 0 22px 44px -14px rgba(0, 0, 0, 0.65),
+    0 0 0 1px rgba(255, 255, 255, 0.04) inset;
+
+  --movement-push-bg: rgba(249, 115, 22, 0.15);
+  --movement-push-text: #fb923c;
+  --movement-push-border: rgba(249, 115, 22, 0.3);
+
+  --movement-pull-bg: rgba(59, 130, 246, 0.15);
+  --movement-pull-text: #60a5fa;
+  --movement-pull-border: rgba(59, 130, 246, 0.3);
+
+  --movement-legs-bg: rgba(34, 197, 94, 0.15);
+  --movement-legs-text: #4ade80;
+  --movement-legs-border: rgba(34, 197, 94, 0.3);
+
+  --movement-cardio-bg: rgba(239, 68, 68, 0.15);
+  --movement-cardio-text: #f87171;
+  --movement-cardio-border: rgba(239, 68, 68, 0.3);
+
+  --movement-core-bg: rgba(168, 85, 247, 0.15);
+  --movement-core-text: #c084fc;
+  --movement-core-border: rgba(168, 85, 247, 0.3);
+
+  --movement-fullbody-bg: rgba(234, 179, 8, 0.14);
+  --movement-fullbody-text: #facc15;
+  --movement-fullbody-border: rgba(234, 179, 8, 0.32);
+
+  --font-sans: var(--font-dm-sans);
+  --font-serif: var(--font-instrument-serif);
+
+  --radius-sm: 0.5rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.5rem;
+  --radius-2xl: 0.5rem;
+  --radius-full: 9999px;
+}
