@@ -107,11 +107,11 @@ export function HomePreview() {
         </Text>
       </div>
 
-      <div className="p-4 overflow-hidden">
+      <div className="overflow-hidden p-4">
         {tab === "exercises" && (
           <div className="exercise-card-grid gap-3 sm:grid-cols-2">
             {previewExercises.map((exercise) => (
-              <div key={exercise.id} className="h-full min-h-0">
+              <div key={exercise.id} className="min-h-0">
                 <ExerciseCard
                   exercise={exercise}
                   selected={selectedIds.includes(exercise.id)}
@@ -141,7 +141,11 @@ export function HomePreview() {
         {tab === "workouts" && (
           <div className="space-y-3">
             {["Push Day", "Leg Day"].map((name) => (
-              <Card key={name} padding="sm" className="flex items-center justify-between gap-3">
+              <Card
+                key={name}
+                padding="sm"
+                className="flex items-center justify-between gap-3"
+              >
                 <div>
                   <Heading as="h3" variant="h4">
                     {name}

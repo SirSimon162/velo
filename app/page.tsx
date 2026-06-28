@@ -7,8 +7,8 @@ import { HomeNavbar } from "@/components/home/HomeNavbar";
 export default function Home() {
   return (
     <div className="relative min-h-dvh bg-bg">
-      <div className="pointer-events-none fixed inset-0 hero-grid opacity-30" aria-hidden />
-      <div className="pointer-events-none fixed inset-0 hero-spotlight opacity-50" aria-hidden />
+      <div className="pointer-events-none fixed inset-0 hero-grid opacity-90" aria-hidden />
+      <div className="pointer-events-none fixed inset-0 hero-spotlight opacity-60" aria-hidden />
 
       <HomeNavbar />
 

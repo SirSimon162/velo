@@ -61,7 +61,7 @@
     background-size: 64px 64px;
     mask-image: radial-gradient(
       ellipse 80% 70% at 50% 0%,
-      black 20%,
+      black 80%,
       transparent 100%
     );
   }
